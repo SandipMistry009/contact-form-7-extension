@@ -1,0 +1,97 @@
+
+/*--------------------------- 
+Add Plugin Front-End CSS here 
+---------------------------*/
+/*--------------------------- 
+Responsive CSS here 
+*
+*   Remember these queries are a good start
+*   but media queries go much deeper than this.
+*
+---------------------------*/
+
+.widget .wpcf7{
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.widget .wpcf7 p{
+	margin-bottom:1px;
+}
+
+.widget .wpcf7 input[type=text],
+.widget .wpcf7 input[type=email],
+.widget .wpcf7 input[type=tel],
+.widget .wpcf7 input[type=number]{
+	height: 22px;
+	background: #fff;
+	width: 100%;
+}
+.widget .wpcf7 .wpcf7-textarea{
+	height: 60px;
+	background: #fff;
+}
+.widget .wpcf7 .contact_text{
+	font-size: 23px;
+}
+.widget .wpcf7 h4.contactText{
+	margin-bottom: 4px !important;
+	margin-top: 0 !important;
+}
+.widget .wpcf7 .wpcf7-submit{
+	display: block;
+    width: 100% !important;
+    margin-top: 14px;
+    height: 32px;
+    padding: 0 !important;
+    border-radius: 5px;
+}
+
+/*
+Medium/Large Screens 
+*/
+@media only screen and (max-width: 1430px) {
+    
+}
+/*
+Medium Screens 
+*/
+@media only screen and (max-width: 1280px) {
+    
+}
+/*
+Large Tablet Screens 
+*/
+@media only screen and (max-width: 980px) {
+    
+}
+/*
+Medium Tablet Screens 
+*/
+@media only screen and (max-width: 768px) {
+
+}
+/*
+Small Tablet/Largest Phone Screens 
+*/
+@media only screen and (max-width: 600px) {
+    
+}
+/*
+Large Phone Screens 
+*/
+@media only screen and (max-width: 420px) {
+    
+}
+/*
+Medium Phone Screens 
+*/
+@media only screen and (max-width: 380px) {
+    
+}
+/*
+Small Phone / Apple Watch Screens 
+*/
+@media only screen and (max-width: 320px) {
+    
+}
